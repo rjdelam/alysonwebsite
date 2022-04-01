@@ -43,7 +43,7 @@ class App extends React.Component {
         this.state.currentCarouselImgNum++;
       }
     }
-    this.setState({currentCarouselImgNum: this.currentCarouselImgNum})
+    this.setState({currentCarouselImgNum: this.state.currentCarouselImgNum})
   }
 
   
