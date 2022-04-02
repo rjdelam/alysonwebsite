@@ -20,7 +20,7 @@ export class Carousel extends React.Component
         return ( 
             <div id="carousel">
                 <button onClick={this.handleButtonClick} id="left">{'<'}</button>
-                <img src={this.props.image} alt="image"/>
+                <img src={this.props.image} alt="carousel image"/>
                 <button onClick={this.handleButtonClick } id="right">{'>'}</button>
             </div>
         )

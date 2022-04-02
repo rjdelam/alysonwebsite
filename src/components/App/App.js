@@ -22,8 +22,9 @@ class App extends React.Component {
   
   changeCarousel(direction) 
   {
-    this.state.currentCarouselImgNum = (this.state.currentCarouselImgNum + direction) % this.state.carouselImgs.length;
-    this.setState({currentCarouselImgNum: this.state.currentCarouselImgNum > -1 ? this.state.currentCarouselImgNum : this.state.carouselImgs.length - 1});
+
+    const value = (this.state.currentCarouselImgNum + direction) % this.state.carouselImgs.length;
+    this.setState({currentCarouselImgNum: value > -1 ? this.state.currentCarouselImgNum : this.state.carouselImgs.length - 1});
   }
 
   
