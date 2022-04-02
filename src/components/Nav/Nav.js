@@ -10,19 +10,19 @@ export class Nav extends React.Component
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Shop</a>
+                        <a href="../../index.js">Shop</a>
                     </li>
                     <li>
-                        <a href="#">Search</a>
+                        <a href="../../index.js">Search</a>
                     </li>
                 </ul>
-                <img id='logo'  src={logo} />
+                <img id='logo'  src={logo} alt="Logo" />
                 <ul>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="../../index.js">Contact</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="../../index.js">About</a>
                     </li>
                 </ul>
             </nav>

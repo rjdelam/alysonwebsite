@@ -1,13 +1,19 @@
-div {
+div#carousel {
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    margin: 0px auto;
+    top: 110px;
 }
 
 img{
-    max-width: 70%
+    max-width: 70%;
+    max-height: 400px;
 }
 
 #carousel{
     background-color: white;
 }
+
